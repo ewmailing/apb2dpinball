@@ -9,7 +9,7 @@
 
         // create the world, using view as the surface
         var world = box2d.createBox2dWorld({surface: gameBoard});
-        world.surface = gameBoard;
+   //     world.surface = gameBoard;
 
         // create alloy scene
         // world.addBody adds sprites into the top scene of the game view automatically.
@@ -426,6 +426,7 @@ g_shootMe = true;
 
             app.world.flipperRightmoter.setMotorSpeed(-1000);
             app.world.flipperLeftmoter.setMotorSpeed(1000);
+
 
 //            if(app.world.ball.view.shootMe) {
             if(g_shootMe) {
