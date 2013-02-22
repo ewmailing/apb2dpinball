@@ -47,6 +47,6 @@
     </mobileweb>
 	<modules>
     	<module version="1.4">co.lanica.platino</module>
-    	<module version="0.1">org.box2d.box2d</module>
+    	<module version="0.1">co.lanica.box2d</module>
   	</modules>
   </ti:app>

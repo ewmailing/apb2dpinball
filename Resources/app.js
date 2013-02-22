@@ -19,7 +19,7 @@ var app = {
 };
 
 var alloy = require("co.lanica.platino");
-var box2d = require('org.box2d.box2d');
+var box2d = require('co.lanica.box2d');
 
 Ti.include('world.js', 'ui.js');
 
